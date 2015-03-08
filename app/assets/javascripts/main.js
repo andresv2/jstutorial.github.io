@@ -6,6 +6,17 @@ $(document).ready(function(){
 
    L.mapbox.map('ues-map', 'avres03.lcm6deo9').setView([40.773321,-73.955530], 16);
 
+// var $body = $("body");
+
+// $("#map").on("click",function(){
+//   $.ajax({
+//     url:
+//     type: "GET",
+//     dataType: "json"
+//   }).done(function(data){
+//     var
+//   })
+// })
 
 })
 

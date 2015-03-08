@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
 
 
-
+resources :neighborhoods
 resources :contact
 resources :areas
 # resources :upper_west_side
