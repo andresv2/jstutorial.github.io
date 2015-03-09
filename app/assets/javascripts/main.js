@@ -2,11 +2,11 @@ geoIPs = {
   "ues": [40.773321, -73.955530],
   "uws": [40.771443,-73.982980],
   "chelsea": [40.746500,-74.001374],
-  "westvillage": [],
-  "eastvillage": [],
-  "les": [],
-  "flatiron": [],
-  "brooklyn": []
+  "westvillage": [40.735781,-74.003571],
+  "eastvillage": [40.726477,-73.981534],
+  "les": [40.715033,-73.984272],
+  "flatiron": [40.741061,-73.989699],
+  "brooklyn": [40.708116,-73.957070]
 };
 
 ourMap = null;
@@ -32,8 +32,8 @@ handleClick = function(element){
   }
   ourMap.setView(geoIPs[element.id], 16);
 
-  $('#' + oldSelection).removeClass('animated pulse infinite');
-  $('#' + element.id).addClass('animated pulse infinite');
+  $('#' + oldSelection).removeClass('animated flash ');
+  $('#' + element.id).addClass('animated flash ');
   oldSelection = element.id
 }
 

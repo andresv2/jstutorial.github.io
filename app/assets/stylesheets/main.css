@@ -9,13 +9,15 @@
 }
 
 body {
-  background-color: red;
+  background-color: #DCDCDC;
 }
 
 .leftColumn {
   float:left;
   padding-right:50px;
+  padding-top: 50px;
   font-size: 25px;
+  color: #00ff00;
 }
 
 .leftColumn a {
@@ -28,4 +30,16 @@ body {
   float: right;
   padding-top: 20px;
   padding-right: 20px;
+}
+
+h1 {
+  color: #00ff00;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+.contactForm{
+  padding: 30px;
+
 }
