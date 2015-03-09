@@ -12,7 +12,7 @@ body {
   background-color: #DCDCDC;
 }
 
-.leftColumn {
+#leftColumn {
   float:left;
   padding-right:50px;
   padding-top: 50px;
@@ -20,7 +20,7 @@ body {
   color: #00ff00;
 }
 
-.leftColumn a {
+#leftColumn a {
   text-decoration: none;
 }
 
@@ -39,7 +39,23 @@ h1 {
 }
 
 
-.contactForm{
+.pure-form pure-form-stacked{
   padding: 30px;
 
 }
+
+
+/*.button_to {
+  font-weight: bold;
+  border: none;
+  height: 2em;
+  width: 8em;
+  height: 5em;
+  font: 'Oswald';
+}
+*/
+
+
+
+
+

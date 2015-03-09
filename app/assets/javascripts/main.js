@@ -32,8 +32,8 @@ handleClick = function(element){
   }
   ourMap.setView(geoIPs[element.id], 16);
 
-  $('#' + oldSelection).removeClass('animated flash ');
-  $('#' + element.id).addClass('animated flash ');
+  $('#' + oldSelection).removeClass('animated flash');
+  $('#' + element.id).addClass('animated flash');
   oldSelection = element.id
 }
 
