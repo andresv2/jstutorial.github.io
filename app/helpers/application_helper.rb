@@ -20,7 +20,7 @@ class Coffee
     url="https://api.foursquare.com/v2/venues/search?radius=800&client_id=#{CLIENT_ID}&client_secret=#{CLIENT_SECRET}&v=#{date}"
     HTTParty.get url
   end
-
+end
 
 class CoffeeShop < ActiveRecord::Base
 
