@@ -58,7 +58,7 @@ CoffeeShop.create([
   {name: "Happy Bones", latitude:"40.720719", longitude:"-73.996922", address:"394 Broome St, New York",notes: "original countertop design"},
   {name: "Cafe Boca Ciega",latitude: "40.717356",longitude: "-74.004169",address: "355 Broadway New York",notes: "cafe con leche"},
   {name: "La Colombe Torrefaction", latitude: "40.723951", longitude: "-73.996444", address: "270 Lafayette St New York" ,notes: "Hemp Milk models and trendy people"},
-  {namie: "La Colombe Torrefaction",latitude:"40.719865",longitude: "-74.003761",address: "319 Church St New York" ,notes: "Hemp Milk models and trendy people"},
+  {name: "La Colombe Torrefaction",latitude:"40.719865",longitude: "-74.003761",address: "319 Church St New York" ,notes: "Hemp Milk models and trendy people"},
   {name: "La Colombe Torrefaction",latitude:"40.726569",longitude: "-74.007225",address:"75 Vandam Street New York",notes: "Hemp Milk models and trendy people"},
   {name: "Saturday’s Surf NYC",latitude: "40.720719",longitude: "-73.999300",address: "31 Crosby St, New York" ,notes:"California coffee refuge"},
   {name: "Saturday’s Surf NYC",latitude: "40.735876",longitude: "-74.001936",address: "17 Perry St New York",notes: "California coffee refuge"},
