@@ -11,6 +11,7 @@ geoIPs = {
 
 ourMap = null;
 mapInitialized = false;
+oldSelection = '';
 
 $(document).ready(function(){
   // Provide your access token
@@ -30,6 +31,10 @@ handleClick = function(element){
     mapInitialized = true;
   }
   ourMap.setView(geoIPs[element.id], 16);
+
+  $('#' + oldSelection).removeClass('animated pulse infinite');
+  $('#' + element.id).addClass('animated pulse infinite');
+  oldSelection = element.id
 }
 
 
