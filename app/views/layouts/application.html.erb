@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 <html>
+<header>
+    <div class="nav">
+      <ul>
+        <li class="home"><a href="">Home</a></li>
+        <li class="about"><a href="/areas">Areas</a></li>
+        <li class="contact"><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+
 <head>
   <title>BestCoffeeApp</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
@@ -12,14 +23,21 @@
   <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
   <!-- <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css"> -->
 
+<link rel="stylesheet" href="stylesheets/btns.min.css">
+
 
 </head>
+
+
 <body>
 
   <%= yield %>
 
   <%= javascript_include_tag 'application' %>
 
+
 </body>
 
 </html>
+
+
