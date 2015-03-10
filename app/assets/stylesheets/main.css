@@ -47,6 +47,7 @@ input[type=email] {
   padding-left:50px;
   padding-top: 25px;
   font-size: 25px;
+  font-weight: lighter;
   color: #00ff00;
 }
 
@@ -55,17 +56,18 @@ input[type=email] {
 }
 
 #mapContainer {
-  width: 80%;
-  height: 100vh;
+  width: 70%;
+  height: 70vh;
   float: right;
-  padding-top: 20px;
-  padding-right: 20px;
+  padding-top: 60px;
+  padding-right: 150px;
 }
 
 h1 {
   color: #0074D9;
   text-align: center;
   padding-top: 30px;
+  font-weight: lighter;
 }
 
 
@@ -138,7 +140,17 @@ h1 {
     margin-right: -4px;
   }
 
-  /* Options 2 - Float
+
+
+  .brand-logo {
+  font-weight: lighter;
+  }
+
+h3{
+
+}
+
+/* Options 2 - Float
   .nav li {
     float: left;
   }
