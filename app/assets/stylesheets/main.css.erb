@@ -13,7 +13,7 @@ body {
 }
 
 .headerImage {
-  background: url("speed_image.jpg") no-repeat center top;
+  background: url("<%= image_path("speed_image.jpg") %>") no-repeat center top;
   background-size: cover;
   background-color: lightgrey;
   background-attachment: fixed;
@@ -162,6 +162,10 @@ h1 {
   .areatext{
     font-weight: lighter;
     color: #039be5;
+  }
+
+  h4 {
+    font-weight: lighter;
   }
 
 /* Options 2 - Float
