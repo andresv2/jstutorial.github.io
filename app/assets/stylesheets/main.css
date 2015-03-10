@@ -80,6 +80,7 @@ h1 {
   text-align: center;
   padding-left: 25%;
   padding-right: 25%;
+  padding-bottom: 50%;
   line-height: 2;
 }
 
@@ -146,9 +147,22 @@ h1 {
   font-weight: lighter;
   }
 
-h3{
+  h3{
+  font-weight: lighter;
+  font-size: 30px;
+  }
 
-}
+  #name {
+    font-weight: lighter;
+    font-size: 18px;
+    position: absolute;
+    left: 200px;
+  }
+
+  .areatext{
+    font-weight: lighter;
+    color: #039be5;
+  }
 
 /* Options 2 - Float
   .nav li {
