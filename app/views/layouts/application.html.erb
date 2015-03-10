@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 <header>
-    <div class="nav">
-      <ul>
-        <li class="home"><a href="">Home</a></li>
-        <li class="about"><a href="/areas">Areas</a></li>
-        <li class="contact"><a href="/contact">Contact</a></li>
+  <nav style="background-color: initial">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo" style="padding-left: 50px;">Cuppa.joe</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="home">Home</a></li>
+        <li><a href="areas">Areas</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+        <li><p style="width: 50px"></p></li>
       </ul>
     </div>
+  </nav>
+
   </header>
 
 
@@ -29,7 +34,7 @@
 </head>
 
 
-<body>
+<body class="headerImage">
 
   <%= yield %>
 
@@ -39,5 +44,4 @@
 </body>
 
 </html>
-
 
