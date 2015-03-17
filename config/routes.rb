@@ -8,7 +8,7 @@ Rails.application.routes.draw do
 
 resources :home
 resources :neighborhoods
-resources :contact
+resources :contacts
 resources :areas
 
   # Example of regular route:
