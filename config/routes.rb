@@ -10,14 +10,6 @@ resources :home
 resources :neighborhoods
 resources :contact
 resources :areas
-# resources :upper_west_side
-# resources :upper_east_side
-# resources :chelsea
-# resources :west_village
-# resouces  :east_village
-# resources :Lower_east_side
-# resouces  :Flatiron
-# resouces  :Brooklyn
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
