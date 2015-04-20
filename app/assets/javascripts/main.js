@@ -36,7 +36,11 @@ handleClick = function(element){
   $('#' + oldSelection).removeClass('animated flash');
   $('#' + element.id).addClass('animated flash');
   oldSelection = element.id
+
+
 }
+
+
 
 
 // var zoom = 16;

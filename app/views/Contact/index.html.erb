@@ -23,12 +23,30 @@
       </div>
     </div>
     <div class="row">
-       <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+     <div id="bttn"><button class="btn waves-effect waves-light" type="submit" name="action">Submit </div>
     <i class="mdi-content-send right"></i>
   </button>
     </div>
 
   </form>
 
+<script>
+function formvalidate(event){
+//removed console log because that only works in ie
+// when debugging
+    var button = document.getElementById("bttn").value;
+    if(button==""){
+       alert("hello world");
+       if(event.preventDefault){ event.preventDefault()};
+       if(window.event){window.event.returnValue = false;}
+    }
+}
+var bttn =document.getElementById("bttn");
+if(bttn.addEventListener){
+    bttn.addEventListener("submit",formvalidate,false);
+}else{
+    //ie doesn't have addEventListner
+    bttn.attachEvent('onsubmit', formvalidate);
+}
 
-
+</script>

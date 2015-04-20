@@ -76,4 +76,12 @@ CoffeeShop.create([
   {name: "Intelligentsia Coffee",latitude:"40.745962",longitude: "-74.004993",address: "180 10th Ave New York",notes: "Expert coffee brewers"},
   {name: "Little Collins",latitude:"40.759895",longitude:"-73.969654",address: "667 Lexington Avenue New York", notes: "almond milk and great pastries"},
   {name: "Devoción", latitude:"40.716064", longitude: "-73.964717" ,address: "69 Grand St. Brooklyn", notes: "Cafe 100% Colombiano"},
-  {name: "Bourbon Coffee",latitude: "40.737217",longitude: "-73.995563",address: "43 W 14th St New York", notes: "people really enjoying their coffee"}])
+  {name: "Bourbon Coffee",latitude: "40.737217",longitude: "-73.995563",address: "43 W 14th St New York", notes: "people really enjoying their coffee"},
+  {name: "Konditori",latitude:"40.68786",longitude:"-73.951774",address:"687 Manhattan Ave, Brooklyn, New York ",notes:"Swedish Delights/Gluten Free Vegan muffins"},
+  {name: "Konditori", latitude:"40.68786",longitude:"-73.989992",address:"114 Smith Street, Brooklyn, New York",notes:"Swedish Delights/Gluten Free Vegan muffins"},
+  {name: "Konditori",latitude: "40.677298",longitude:"-73.980182",address:"186 Fifth Ave, Brooklyn, NY",notes:"Swedish Delights/Gluten Free Vegan muffins"},
+  {name: "Konditori",latitude: "40.669738", longitude:"-73.979485",address:"240 7th Ave, Brooklyn, New York",notes:"Swedish Delights/Gluten Free Vegan muffins"},
+  {name: "Konditori",latitude: "40.677092", longitude: "-73.963864",address:"696 Washington Ave, Brooklyn, New York",notes:"Swedish Delights/Gluten Free Vegan muffins"},
+  {name: "Konditori", latitude:"40.717744", longitude: "-73.95731",address:"167 N. 7th Street, Brooklyn, New York",notes:"Swedish Delights/Gluten Free Vegan muffins"},
+  {name: "Konditori", latitude:"40.721814", longitude:"-73.988659",address:"182 Allen Street, New York, NY",notes:"Swedish Delights/Gluten Free Vegan muffins"}
+  ])
