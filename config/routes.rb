@@ -10,6 +10,7 @@ resources :home
 resources :neighborhoods
 resources :contacts
 resources :areas
+resources :users
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

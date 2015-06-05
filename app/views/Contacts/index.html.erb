@@ -45,7 +45,7 @@ var bttn =document.getElementById("bttn");
 if(bttn.addEventListener){
     bttn.addEventListener("submit",formvalidate,false);
 }else{
-    //ie doesn't have addEventListner
+    //ie doesn't have addEventListener
     bttn.attachEvent('onsubmit', formvalidate);
 }
 
